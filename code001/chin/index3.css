@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background: url(https://img.freepik.com/free-vector/bokeh-theme-wallpaper_23-2148467962.jpg);
+    background-size: cover;
+}
+nav {
+    width: 100%;
+    height: 7vw;
+    background: linear-gradient(125deg, #e61b36, #9c1032);
+}
+.logo {
+    max-width: 52.5vw;
+    height: 100%;
+    margin: 0 auto;
+    margin-left: 4.5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.โล้โก้ {
+    font-size: 5vw;
+    font-family: "Honk", system-ui;
+    width: 7vw;
+    object-fit: contain;
+}
+.topic1 {
+    font-size: 2vw;
+    color: goldenrod;
+    margin-left: 1vw;
+}
+.เมนูเลือก-a-1 {
+    align-items: center;
+    text-align: center;
+    border: none;
+    height: 45px;
+    width: 8vw;
+    margin: auto;
+    margin-left: 18.9vw;
+    margin-top: 1vw;
+    font-size: 1rem;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    background: gold;
+    color: #fff;
+}
+.เมนูเลือก-a-2 {
+    align-items: center;
+    text-align: center;
+    border: none;
+    height: 45px;
+    width: 8vw;
+    margin: auto;
+    margin-left: 18.9vw;
+    margin-top: 1vw;
+    font-size: 1rem;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    background: #1abc9c;
+    color: #fff;
+}
+.เมนูเลือก-a-4 {
+    align-items: center;
+    text-align: center;
+    border: none;
+    height: 45px;
+    width: 8vw;
+    margin: auto;
+    margin-left: 18.9vw;
+    margin-top: 1vw;
+    font-size: 1rem;
+    outline: none;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    background: #9b59b6;
+    color: #fff;
+}
+.เมนูเลือก-a-1:hover {
+    color: #fff;
+    background: gray;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.เมนูเลือก-a-2:hover {
+    color: #fff;
+    background: gray;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.เมนูเลือก-a-4:hover {
+    color: #fff;
+    background: gray;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.top {
+    text-align: center;
+    margin: auto;
+    color: blue;
+    margin-top: 5%;
+    background-color: azure;
+    width: 200px;
+    border-radius: 10px;
+}
+.รูปภาพต่างๆ {
+    margin: auto;
+}
+.รูปภาพหลัก {
+    max-width: 10vw;
+    max-height: 10vw;
+    margin-left: 18vw;
+    margin-top: 6vw;
+    border-radius: 20px;
+}
+.รูปภาพ {
+    max-width: 10vw;
+    max-height: 10vw;
+    margin-left: 17vw;
+    margin-top: 6vw;
+    border-radius: 20px;
+}
+.รูปภาพ-4 {
+    max-width: 10vw;
+    max-height: 10vw;
+    margin-left: 32vw;
+    margin-top: 6vw;
+    border-radius: 20px;
+}
+.รูปภาพสุดท้าย {
+    max-width: 10vw;
+    max-height: 10vw;
+    margin-left: 17vw;
+    margin-top: auto;
+    border-radius: 20px;
+}
+footer {
+    background: linear-gradient(125deg, #e61b36, #9c1032);
+    width: 100%;
+    height: 8vw;
+}
+.under {
+    color: silver;
+    text-align: center;
+    margin-top: 2vw;
+    font-size: 1.25vw;
+}
+.nameผู้สร้าง {
+    text-align: center;
+    font-size: 1.25vw;
+    color: #fff;
+}
+.ข้อมูลผู้สร้าง {
+    margin-top: 0.75vw;
+    text-align: center;
+}
+.คำพูด1 {
+    text-align: center;
+    font-size: 1vw;
+    color: #fff;
+}
